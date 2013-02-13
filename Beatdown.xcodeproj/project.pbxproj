@@ -1,0 +1,83 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		7CD70EBF16CAD09200B927FC /* NSArray+Funcussion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Funcussion.h"; sourceTree = "<group>"; };
+		7CD70EC016CAD09200B927FC /* NSArray+Funcussion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Funcussion.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		7CD70EB716CACFAB00B927FC = {
+			isa = PBXGroup;
+			children = (
+				7CD70EBE16CAD09200B927FC /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		7CD70EBE16CAD09200B927FC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7CD70EBF16CAD09200B927FC /* NSArray+Funcussion.h */,
+				7CD70EC016CAD09200B927FC /* NSArray+Funcussion.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		7CD70EB816CACFAB00B927FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 7CD70EBB16CACFAB00B927FC /* Build configuration list for PBXProject "Beatdown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CD70EB716CACFAB00B927FC;
+			productRefGroup = 7CD70EB716CACFAB00B927FC;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		7CD70EBC16CACFAB00B927FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7CD70EBD16CACFAB00B927FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CD70EBB16CACFAB00B927FC /* Build configuration list for PBXProject "Beatdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD70EBC16CACFAB00B927FC /* Debug */,
+				7CD70EBD16CACFAB00B927FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CD70EB816CACFAB00B927FC /* Project object */;
+}
