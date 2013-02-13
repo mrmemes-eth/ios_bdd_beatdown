@@ -25,6 +25,8 @@
 		7CD70F1C16CBFB3900B927FC /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70F1B16CBFB3800B927FC /* BaseController.m */; };
 		7CD70F1F16CBFC4200B927FC /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70F1E16CBFC4200B927FC /* BaseView.m */; };
 		7CD70F2116CC044A00B927FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD70F2016CC044A00B927FC /* QuartzCore.framework */; };
+		7CD70F4A16CC18FF00B927FC /* NSDictionary+Funcussion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70F4916CC18FF00B927FC /* NSDictionary+Funcussion.m */; };
+		7CD70F4E16CC1BEA00B927FC /* NSDictionary+FuncussionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70F4B16CC1A2300B927FC /* NSDictionary+FuncussionTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,9 @@
 		7CD70F1D16CBFC4200B927FC /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		7CD70F1E16CBFC4200B927FC /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		7CD70F2016CC044A00B927FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7CD70F4816CC18FF00B927FC /* NSDictionary+Funcussion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Funcussion.h"; sourceTree = "<group>"; };
+		7CD70F4916CC18FF00B927FC /* NSDictionary+Funcussion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Funcussion.m"; sourceTree = "<group>"; };
+		7CD70F4B16CC1A2300B927FC /* NSDictionary+FuncussionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FuncussionTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +103,8 @@
 			children = (
 				7CD70EBF16CAD09200B927FC /* NSArray+Funcussion.h */,
 				7CD70EC016CAD09200B927FC /* NSArray+Funcussion.m */,
+				7CD70F4816CC18FF00B927FC /* NSDictionary+Funcussion.h */,
+				7CD70F4916CC18FF00B927FC /* NSDictionary+Funcussion.m */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -118,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				7CD70EF316CBEEB800B927FC /* NSArrayFuncussionTest.m */,
+				7CD70F4B16CC1A2300B927FC /* NSDictionary+FuncussionTest.m */,
 				7CD70EED16CBEEB800B927FC /* Supporting Files */,
 			);
 			path = test;
@@ -278,6 +286,8 @@
 			files = (
 				7CD70EF416CBEEB800B927FC /* NSArrayFuncussionTest.m in Sources */,
 				7CD70EFA16CBEFF200B927FC /* NSArray+Funcussion.m in Sources */,
+				7CD70F4A16CC18FF00B927FC /* NSDictionary+Funcussion.m in Sources */,
+				7CD70F4E16CC1BEA00B927FC /* NSDictionary+FuncussionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +502,7 @@
 				7CD70EF816CBEEB800B927FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CD70F1616CBFA3400B927FC /* Build configuration list for PBXNativeTarget "RopeADope" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +511,7 @@
 				7CD70F1816CBFA3400B927FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
