@@ -32,6 +32,8 @@
 		7CD70F3116CC0F0400B927FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70F3016CC0F0400B927FC /* main.m */; };
 		7CD70F4216CC140100B927FC /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD70F4116CC140100B927FC /* GHUnitIOS.framework */; };
 		7CD70F4316CC151900B927FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD70F2016CC044A00B927FC /* QuartzCore.framework */; };
+		7CD70F4616CC168C00B927FC /* NSArrayFunctionalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70F4516CC168C00B927FC /* NSArrayFunctionalTest.m */; };
+		7CD70F4716CC176000B927FC /* NSArray+Funcussion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70EC016CAD09200B927FC /* NSArray+Funcussion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,7 @@
 		7CD70F3016CC0F0400B927FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CD70F3216CC0F0400B927FC /* GHTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHTests-Prefix.pch"; sourceTree = "<group>"; };
 		7CD70F4116CC140100B927FC /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		7CD70F4516CC168C00B927FC /* NSArrayFunctionalTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayFunctionalTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,8 @@
 				7CD70F2A16CC0F0400B927FC /* GHTests */,
 				7CD70EE516CBEEB800B927FC /* Frameworks */,
 				7CD70EF916CBEED700B927FC /* Products */,
-				7CD70EFF16CBFA3400B927FC /* RopeADope.app */,
 				7CD70F2616CC0F0400B927FC /* GHTests.app */,
+				7CD70EFF16CBFA3400B927FC /* RopeADope.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				7CD70F2B16CC0F0400B927FC /* Supporting Files */,
+				7CD70F4516CC168C00B927FC /* NSArrayFunctionalTest.m */,
 			);
 			path = GHTests;
 			sourceTree = "<group>";
@@ -370,6 +374,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CD70F3116CC0F0400B927FC /* main.m in Sources */,
+				7CD70F4616CC168C00B927FC /* NSArrayFunctionalTest.m in Sources */,
+				7CD70F4716CC176000B927FC /* NSArray+Funcussion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
