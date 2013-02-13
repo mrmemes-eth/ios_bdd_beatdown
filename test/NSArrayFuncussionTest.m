@@ -1,6 +1,9 @@
 #import <SenTestingKit/SenTestingKit.h>
 #import "NSArray+Funcussion.h"
 
+#define HC_SHORTHAND
+#import <OCHamcrestIOS/OCHamcrestIOS.h>
+
 @interface NSArrayFuncussionTest : SenTestCase
 @property NSArray *simpleArray;
 @property NSArray *nestedArray;
@@ -27,8 +30,8 @@
     count += 1;
     [accumulator appendString:obj];
   }];
-  STAssertEquals([self.simpleArray count], count, nil);
-  STAssertEqualObjects(@"onetwo", accumulator, nil);
+  assertThatInt([self.simpleArray count], equalToInt(count));
+  assertThat(@"onetwo", equalTo(accumulator));
 }
 
 -(void)testMap {
@@ -36,7 +39,7 @@
     return [obj uppercaseString];
   }];
   NSArray *resultArray = @[@"ONE",@"TWO"];
-  STAssertEqualObjects(mappedArray, resultArray, nil);
+  assertThat(mappedArray, equalTo(resultArray));
 }
 
 -(void)testFilter {

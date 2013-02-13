@@ -27,6 +27,7 @@
 		7CD70F2116CC044A00B927FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD70F2016CC044A00B927FC /* QuartzCore.framework */; };
 		7CD70F4A16CC18FF00B927FC /* NSDictionary+Funcussion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70F4916CC18FF00B927FC /* NSDictionary+Funcussion.m */; };
 		7CD70F4E16CC1BEA00B927FC /* NSDictionary+FuncussionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70F4B16CC1A2300B927FC /* NSDictionary+FuncussionTest.m */; };
+		7CD70F6C16CC253400B927FC /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD70F6B16CC253400B927FC /* OCHamcrestIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		7CD70F4816CC18FF00B927FC /* NSDictionary+Funcussion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Funcussion.h"; sourceTree = "<group>"; };
 		7CD70F4916CC18FF00B927FC /* NSDictionary+Funcussion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Funcussion.m"; sourceTree = "<group>"; };
 		7CD70F4B16CC1A2300B927FC /* NSDictionary+FuncussionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FuncussionTest.m"; sourceTree = "<group>"; };
+		7CD70F6B16CC253400B927FC /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				7CD70EE716CBEEB800B927FC /* SenTestingKit.framework in Frameworks */,
 				7CD70EE916CBEEB800B927FC /* UIKit.framework in Frameworks */,
 				7CD70EEB16CBEEB800B927FC /* Foundation.framework in Frameworks */,
+				7CD70F6C16CC253400B927FC /* OCHamcrestIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +115,7 @@
 		7CD70EE516CBEEB800B927FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7CD70F6B16CC253400B927FC /* OCHamcrestIOS.framework */,
 				7CD70EE616CBEEB800B927FC /* SenTestingKit.framework */,
 				7CD70EE816CBEEB800B927FC /* UIKit.framework */,
 				7CD70EEA16CBEEB800B927FC /* Foundation.framework */,
@@ -352,6 +356,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -391,6 +396,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
