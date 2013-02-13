@@ -13,6 +13,18 @@
 		7CD70EF116CBEEB800B927FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CD70EEF16CBEEB800B927FC /* InfoPlist.strings */; };
 		7CD70EF416CBEEB800B927FC /* NSArrayFuncussionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70EF316CBEEB800B927FC /* NSArrayFuncussionTest.m */; };
 		7CD70EFA16CBEFF200B927FC /* NSArray+Funcussion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70EC016CAD09200B927FC /* NSArray+Funcussion.m */; };
+		7CD70F0016CBFA3400B927FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD70EE816CBEEB800B927FC /* UIKit.framework */; };
+		7CD70F0116CBFA3400B927FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD70EEA16CBEEB800B927FC /* Foundation.framework */; };
+		7CD70F0316CBFA3400B927FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD70F0216CBFA3400B927FC /* CoreGraphics.framework */; };
+		7CD70F0916CBFA3400B927FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CD70F0716CBFA3400B927FC /* InfoPlist.strings */; };
+		7CD70F0B16CBFA3400B927FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70F0A16CBFA3400B927FC /* main.m */; };
+		7CD70F0F16CBFA3400B927FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70F0E16CBFA3400B927FC /* AppDelegate.m */; };
+		7CD70F1116CBFA3400B927FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD70F1016CBFA3400B927FC /* Default.png */; };
+		7CD70F1316CBFA3400B927FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD70F1216CBFA3400B927FC /* Default@2x.png */; };
+		7CD70F1516CBFA3400B927FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD70F1416CBFA3400B927FC /* Default-568h@2x.png */; };
+		7CD70F1C16CBFB3900B927FC /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70F1B16CBFB3800B927FC /* BaseController.m */; };
+		7CD70F1F16CBFC4200B927FC /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD70F1E16CBFC4200B927FC /* BaseView.m */; };
+		7CD70F2116CC044A00B927FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD70F2016CC044A00B927FC /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,22 @@
 		7CD70EF016CBEEB800B927FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CD70EF316CBEEB800B927FC /* NSArrayFuncussionTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArrayFuncussionTest.m; sourceTree = "<group>"; };
 		7CD70EF516CBEEB800B927FC /* test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Prefix.pch"; sourceTree = "<group>"; };
+		7CD70EFF16CBFA3400B927FC /* RopeADope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RopeADope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD70F0216CBFA3400B927FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7CD70F0616CBFA3400B927FC /* RopeADope-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RopeADope-Info.plist"; sourceTree = "<group>"; };
+		7CD70F0816CBFA3400B927FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CD70F0A16CBFA3400B927FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CD70F0C16CBFA3400B927FC /* RopeADope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RopeADope-Prefix.pch"; sourceTree = "<group>"; };
+		7CD70F0D16CBFA3400B927FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CD70F0E16CBFA3400B927FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CD70F1016CBFA3400B927FC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7CD70F1216CBFA3400B927FC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7CD70F1416CBFA3400B927FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7CD70F1A16CBFB3800B927FC /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		7CD70F1B16CBFB3800B927FC /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		7CD70F1D16CBFC4200B927FC /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		7CD70F1E16CBFC4200B927FC /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		7CD70F2016CC044A00B927FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +67,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7CD70EFC16CBFA3400B927FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD70F2116CC044A00B927FC /* QuartzCore.framework in Frameworks */,
+				7CD70F0016CBFA3400B927FC /* UIKit.framework in Frameworks */,
+				7CD70F0116CBFA3400B927FC /* Foundation.framework in Frameworks */,
+				7CD70F0316CBFA3400B927FC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,8 +86,10 @@
 			children = (
 				7CD70EBE16CAD09200B927FC /* src */,
 				7CD70EEC16CBEEB800B927FC /* test */,
+				7CD70F0416CBFA3400B927FC /* RopeADope */,
 				7CD70EE516CBEEB800B927FC /* Frameworks */,
 				7CD70EF916CBEED700B927FC /* Products */,
+				7CD70EFF16CBFA3400B927FC /* RopeADope.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +108,8 @@
 				7CD70EE616CBEEB800B927FC /* SenTestingKit.framework */,
 				7CD70EE816CBEEB800B927FC /* UIKit.framework */,
 				7CD70EEA16CBEEB800B927FC /* Foundation.framework */,
+				7CD70F2016CC044A00B927FC /* QuartzCore.framework */,
+				7CD70F0216CBFA3400B927FC /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,6 +141,34 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7CD70F0416CBFA3400B927FC /* RopeADope */ = {
+			isa = PBXGroup;
+			children = (
+				7CD70F0D16CBFA3400B927FC /* AppDelegate.h */,
+				7CD70F0E16CBFA3400B927FC /* AppDelegate.m */,
+				7CD70F1A16CBFB3800B927FC /* BaseController.h */,
+				7CD70F1B16CBFB3800B927FC /* BaseController.m */,
+				7CD70F1D16CBFC4200B927FC /* BaseView.h */,
+				7CD70F1E16CBFC4200B927FC /* BaseView.m */,
+				7CD70F0516CBFA3400B927FC /* Supporting Files */,
+			);
+			path = RopeADope;
+			sourceTree = "<group>";
+		};
+		7CD70F0516CBFA3400B927FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CD70F0616CBFA3400B927FC /* RopeADope-Info.plist */,
+				7CD70F0716CBFA3400B927FC /* InfoPlist.strings */,
+				7CD70F0A16CBFA3400B927FC /* main.m */,
+				7CD70F0C16CBFA3400B927FC /* RopeADope-Prefix.pch */,
+				7CD70F1016CBFA3400B927FC /* Default.png */,
+				7CD70F1216CBFA3400B927FC /* Default@2x.png */,
+				7CD70F1416CBFA3400B927FC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,6 +189,23 @@
 			productName = test;
 			productReference = 7CD70EE416CBEEB800B927FC /* test.octest */;
 			productType = "com.apple.product-type.bundle";
+		};
+		7CD70EFE16CBFA3400B927FC /* RopeADope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CD70F1616CBFA3400B927FC /* Build configuration list for PBXNativeTarget "RopeADope" */;
+			buildPhases = (
+				7CD70EFB16CBFA3400B927FC /* Sources */,
+				7CD70EFC16CBFA3400B927FC /* Frameworks */,
+				7CD70EFD16CBFA3400B927FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RopeADope;
+			productName = RopeADope;
+			productReference = 7CD70EFF16CBFA3400B927FC /* RopeADope.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -140,6 +228,7 @@
 			projectRoot = "";
 			targets = (
 				7CD70EE316CBEEB800B927FC /* test */,
+				7CD70EFE16CBFA3400B927FC /* RopeADope */,
 			);
 		};
 /* End PBXProject section */
@@ -150,6 +239,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CD70EF116CBEEB800B927FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD70EFD16CBFA3400B927FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD70F0916CBFA3400B927FC /* InfoPlist.strings in Resources */,
+				7CD70F1116CBFA3400B927FC /* Default.png in Resources */,
+				7CD70F1316CBFA3400B927FC /* Default@2x.png in Resources */,
+				7CD70F1516CBFA3400B927FC /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +281,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7CD70EFB16CBFA3400B927FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD70F0B16CBFA3400B927FC /* main.m in Sources */,
+				7CD70F0F16CBFA3400B927FC /* AppDelegate.m in Sources */,
+				7CD70F1C16CBFB3900B927FC /* BaseController.m in Sources */,
+				7CD70F1F16CBFC4200B927FC /* BaseView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -188,6 +299,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				7CD70EF016CBEEB800B927FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CD70F0716CBFA3400B927FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CD70F0816CBFA3400B927FC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -278,6 +397,82 @@
 			};
 			name = Release;
 		};
+		7CD70F1716CBFA3400B927FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RopeADope/RopeADope-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "RopeADope/RopeADope-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7CD70F1816CBFA3400B927FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RopeADope/RopeADope-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "RopeADope/RopeADope-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -295,6 +490,14 @@
 			buildConfigurations = (
 				7CD70EF716CBEEB800B927FC /* Debug */,
 				7CD70EF816CBEEB800B927FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CD70F1616CBFA3400B927FC /* Build configuration list for PBXNativeTarget "RopeADope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD70F1716CBFA3400B927FC /* Debug */,
+				7CD70F1816CBFA3400B927FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
