@@ -22,6 +22,7 @@
 		7CC94FE716CC50FE009A9204 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD70F1416CBFA3400B927FC /* Default-568h@2x.png */; };
 		7CC94FF016CC529F009A9204 /* UpcaseTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC94FEF16CC529F009A9204 /* UpcaseTestController.m */; };
 		7CC94FF316CD2150009A9204 /* KIFTestScenario+UpcaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC94FF216CD2150009A9204 /* KIFTestScenario+UpcaseTest.m */; };
+		7CC94FF716CD287B009A9204 /* KIFTestStep+VerifyText.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC94FF516CD287B009A9204 /* KIFTestStep+VerifyText.m */; };
 		7CD70EE716CBEEB800B927FC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD70EE616CBEEB800B927FC /* SenTestingKit.framework */; };
 		7CD70EE916CBEEB800B927FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD70EE816CBEEB800B927FC /* UIKit.framework */; };
 		7CD70EEB16CBEEB800B927FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD70EEA16CBEEB800B927FC /* Foundation.framework */; };
@@ -55,6 +56,8 @@
 		7CC94FEF16CC529F009A9204 /* UpcaseTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpcaseTestController.m; sourceTree = "<group>"; };
 		7CC94FF116CD2150009A9204 /* KIFTestScenario+UpcaseTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestScenario+UpcaseTest.h"; sourceTree = "<group>"; };
 		7CC94FF216CD2150009A9204 /* KIFTestScenario+UpcaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestScenario+UpcaseTest.m"; sourceTree = "<group>"; };
+		7CC94FF416CD287B009A9204 /* KIFTestStep+VerifyText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestStep+VerifyText.h"; sourceTree = "<group>"; };
+		7CC94FF516CD287B009A9204 /* KIFTestStep+VerifyText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestStep+VerifyText.m"; sourceTree = "<group>"; };
 		7CD70EBF16CAD09200B927FC /* NSArray+Funcussion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Funcussion.h"; sourceTree = "<group>"; };
 		7CD70EC016CAD09200B927FC /* NSArray+Funcussion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Funcussion.m"; sourceTree = "<group>"; };
 		7CD70EE416CBEEB800B927FC /* test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +135,8 @@
 				7CC94FEF16CC529F009A9204 /* UpcaseTestController.m */,
 				7CC94FF116CD2150009A9204 /* KIFTestScenario+UpcaseTest.h */,
 				7CC94FF216CD2150009A9204 /* KIFTestScenario+UpcaseTest.m */,
+				7CC94FF416CD287B009A9204 /* KIFTestStep+VerifyText.h */,
+				7CC94FF516CD287B009A9204 /* KIFTestStep+VerifyText.m */,
 			);
 			name = Integrations;
 			sourceTree = "<group>";
@@ -406,6 +411,7 @@
 				7CC94FDD16CC50FE009A9204 /* BaseView.m in Sources */,
 				7CC94FF016CC529F009A9204 /* UpcaseTestController.m in Sources */,
 				7CC94FF316CD2150009A9204 /* KIFTestScenario+UpcaseTest.m in Sources */,
+				7CC94FF716CD287B009A9204 /* KIFTestStep+VerifyText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +493,11 @@
 				INFOPLIST_FILE = "RopeADope-Integration-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "RopeADope (integration)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,6 +532,11 @@
 				INFOPLIST_FILE = "RopeADope-Integration-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "RopeADope (integration)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
