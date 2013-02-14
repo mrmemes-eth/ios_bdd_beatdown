@@ -10,6 +10,38 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>1ebc693635921682161e80ff</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>b0b8f24d639d841d9fb9197c</string>
+			<key>buildPhases</key>
+			<array>
+				<string>68a2866c2d5c61f24b15219f</string>
+				<string>a6809e9a86e7e9ddf2025f10</string>
+				<string>8e5dd5064136766ac1c43204</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>RopeADope-cal</string>
+			<key>productName</key>
+			<string>RopeADope-cal</string>
+			<key>productReference</key>
+			<string>40e8a88f32799d2a2b0a56a9</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>227453c20a9d59b54f1759be</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD70F2016CC044A00B927FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>2D9FFF0134AA4656838A5BD2</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -25,6 +57,138 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
+		<key>3d4a28255be517e6834e5b10</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD70F1B16CBFB3800B927FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>40e8a88f32799d2a2b0a56a9</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>RopeADope-cal.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>5190413cfba41603ec359d16</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks"</string>
+					<string>"$(SRCROOT)"</string>
+				</array>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>RopeADope/RopeADope-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>RopeADope/RopeADope-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.1</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>-force_load</string>
+					<string>"$(SRCROOT)/calabash.framework/calabash"</string>
+					<string>-lstdc++</string>
+				</array>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>5b5f6084bed2d46d609b54de</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD70F1016CBFA3400B927FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>61d1d04784e3aaf4ffdf884d</key>
+		<dict>
+			<key>fileRef</key>
+			<string>c9a6ba1455fd1549bbd172ea</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>68a2866c2d5c61f24b15219f</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9490144e46779739e36def4e</string>
+				<string>f5dfbf7c5f3c0557385e8f85</string>
+				<string>3d4a28255be517e6834e5b10</string>
+				<string>6b233c025e7879ea325600ae</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>6CC4742CD7E74B6786BDF984</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -39,6 +203,27 @@
 			<string>libPods.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6b233c025e7879ea325600ae</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD70F1E16CBFC4200B927FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>72543fbadedb8285dcf60e37</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD70F0716CBFA3400B927FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7491f01645e957082bc6dba0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD70EE816CBEEB800B927FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>773500042FAC43F78E823822</key>
 		<dict>
@@ -101,6 +286,7 @@
 			<array>
 				<string>7CD70EE316CBEEB800B927FC</string>
 				<string>7CD70EFE16CBFA3400B927FC</string>
+				<string>1ebc693635921682161e80ff</string>
 			</array>
 		</dict>
 		<key>7CD70EBB16CACFAB00B927FC</key>
@@ -289,11 +475,15 @@
 				<string>7CD70F2016CC044A00B927FC</string>
 				<string>7CD70F0216CBFA3400B927FC</string>
 				<string>6CC4742CD7E74B6786BDF984</string>
+				<string>fe584c26e427bc68f9362135</string>
+				<string>c9a6ba1455fd1549bbd172ea</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Frameworks</string>
+			<key>path</key>
+			<string></string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1233,6 +1423,36 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>7baca75979184f4c509a0faa</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD70F0216CBFA3400B927FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8e5dd5064136766ac1c43204</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>72543fbadedb8285dcf60e37</string>
+				<string>5b5f6084bed2d46d609b54de</string>
+				<string>e1815c824f28bf80e30758fb</string>
+				<string>de7540332a26d1cb5572ca24</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9490144e46779739e36def4e</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD70F0A16CBFA3400B927FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>CAAE9EB077F8468D91560024</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1256,6 +1476,176 @@
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>1</string>
+		</dict>
+		<key>a108b7d9f98057236d7f64bd</key>
+		<dict>
+			<key>fileRef</key>
+			<string>fe584c26e427bc68f9362135</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>a6809e9a86e7e9ddf2025f10</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>227453c20a9d59b54f1759be</string>
+				<string>7491f01645e957082bc6dba0</string>
+				<string>a7c19d1372a7e68bc89d4571</string>
+				<string>7baca75979184f4c509a0faa</string>
+				<string>a108b7d9f98057236d7f64bd</string>
+				<string>61d1d04784e3aaf4ffdf884d</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>a7c19d1372a7e68bc89d4571</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD70EEA16CBEEB800B927FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>b0b8f24d639d841d9fb9197c</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5190413cfba41603ec359d16</string>
+				<string>bd6f687d1fd704ec9ca6ec97</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>bd6f687d1fd704ec9ca6ec97</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks"</string>
+					<string>"$(SRCROOT)"</string>
+				</array>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>RopeADope/RopeADope-Prefix.pch</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>RopeADope/RopeADope-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.1</string>
+				<key>OTHER_CFLAGS</key>
+				<string>-DNS_BLOCK_ASSERTIONS=1</string>
+				<key>OTHER_LDFLAGS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>-force_load</string>
+					<string>"$(SRCROOT)/calabash.framework/calabash"</string>
+					<string>-lstdc++</string>
+				</array>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>c9a6ba1455fd1549bbd172ea</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>calabash.framework</string>
+			<key>path</key>
+			<string>calabash.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>de7540332a26d1cb5572ca24</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD70F1416CBFA3400B927FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>e1815c824f28bf80e30758fb</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD70F1216CBFA3400B927FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>f5dfbf7c5f3c0557385e8f85</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD70F0E16CBFA3400B927FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>fe584c26e427bc68f9362135</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CFNetwork.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CFNetwork.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
