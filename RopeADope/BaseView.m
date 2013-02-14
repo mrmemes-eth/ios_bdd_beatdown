@@ -34,6 +34,7 @@ static CGFloat kControlHeight = 28;
     _inputField = [[UITextField alloc] init];
     [_inputField setBorderStyle:UITextBorderStyleRoundedRect];
     [_inputField setAccessibilityLabel:@"inputField"];
+    [_inputField setPlaceholder:@"enter text"];
   }
   return _inputField;
 }
