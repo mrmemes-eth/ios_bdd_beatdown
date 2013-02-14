@@ -24,6 +24,7 @@ static CGFloat kControlHeight = 28;
     _outputLabel = [[UILabel alloc] init];
     [_outputLabel setTextAlignment:NSTextAlignmentCenter];
     [_outputLabel setNumberOfLines:0];
+    [_outputLabel setAccessibilityLabel:@"outputLabel"];
   }
   return _outputLabel;
 }
@@ -32,6 +33,7 @@ static CGFloat kControlHeight = 28;
   if (!_inputField) {
     _inputField = [[UITextField alloc] init];
     [_inputField setBorderStyle:UITextBorderStyleRoundedRect];
+    [_inputField setAccessibilityLabel:@"inputField"];
   }
   return _inputField;
 }
@@ -43,6 +45,7 @@ static CGFloat kControlHeight = 28;
     [_uppercaseButton addTarget:self
                          action:@selector(emitUppercasedInput)
                forControlEvents:UIControlEventTouchUpInside];
+    [_uppercaseButton setAccessibilityLabel:@"uppercaseButton"];
   }
   return _uppercaseButton;
 }
