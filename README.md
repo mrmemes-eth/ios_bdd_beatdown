@@ -12,3 +12,5 @@ framework-specific test implementations:
 * ochamcrest
 * simon
 * specta
+
+Slides are online at: [Speaker Deck](https://speakerdeck.com/voxdolo/ios-bdd-beatdown).
